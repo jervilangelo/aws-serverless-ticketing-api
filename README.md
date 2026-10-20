@@ -1,4 +1,4 @@
-# HRIS Support Ticket Tracker
+# AWS Serverless Ticketing API (Lambda, DynamoDB, CloudWatch, API Gateway, SNS)
 
 A small serverless API on AWS for logging and tracking HRIS support tickets. API Gateway takes the requests, a Lambda function handles them, and DynamoDB stores the tickets. A second Lambda sends me an email whenever a Critical ticket is created.
 
