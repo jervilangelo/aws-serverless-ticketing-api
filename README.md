@@ -133,7 +133,6 @@ I built everything in the console in the `ap-southeast-1` (Singapore) region. In
 6. Create the `hris-critical-alert` function, set `TOPIC_ARN` to the topic's ARN, paste in `lambda/critical_alert.py`, add the policy from `iam/critical-alert-policy.json`, then add the DynamoDB stream trigger (batch size 10, starting position Latest).
 7. Set log retention, add the error alarm, and set the API throttle.
 
-The `<ACCOUNT_ID>` in the policy files needs to be replaced with your own account ID.
 
 ## Limitations and what I would change
 
