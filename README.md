@@ -155,4 +155,5 @@ test-requests.ps1
 
 ## About
 
-Built by Jervil Angelo De Leon. I work in HRIS technical support and this is one of my AWS practice projects.
+Built by Jervil Angelo De Leon. A hands-on practice for my upcoming CLF-C02 exam. 
+10-20-26 14:02
